@@ -18,23 +18,23 @@ int main(void) {
         switch(op) {
             case 1:
                 resultado = x + y;
-                printf("\nO resultado da soma e: %f", resultado);
+                printf("\nO resultado da soma e: %.2f", resultado);
                 break;
 
             case 2:
                 resultado = x - y;
-                printf("\nO resultado da subtracao e: %f", resultado);
+                printf("\nO resultado da subtracao e: %.2f", resultado);
                 break;
 
             case 3:
                 resultado = x * y;
-                printf("\nO resultado da multiplicacao e: %f", resultado);
+                printf("\nO resultado da multiplicacao e: %.2f", resultado);
                 break;
 
             case 4:
                 if (y != 0) {
                     resultado = x / y;
-                    printf("\nO resultado da divisao e: %f", resultado);
+                    printf("\nO resultado da divisao e: %.2f", resultado);
                 } else {
                     printf("\nErro: divisao por zero!");
                 }
