@@ -9,13 +9,13 @@ int main() {
     printf("/n Digite a altura da pessoa Bem centimetros: ");
     scanf("%d", &alturaB);
 
-    while(alturaB <= alturaA) {
+    while(alturaB < alturaA) {
         alturaA +=2;
         alturaB +=3;
 
         anos++;
     }
        
-    printf("/n Serao necessarios %d anos para a pessoa B ser maior que a pessoa A.");
+    printf("/n Serao necessarios %d anos para a pessoa B ser maior que a pessoa A.", anos);
     return 0;
 } 
