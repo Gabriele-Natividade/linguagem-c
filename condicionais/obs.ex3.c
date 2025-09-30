@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main(){
     int numero;
-    printf("\n Digite um numero: ");
-
+    printf("\n Digite um numero: ");\
     scanf("%d", &numero);
 
     if (numero > 0) {
